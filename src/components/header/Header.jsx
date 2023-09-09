@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <>
             <div className="header_container">
-                <div className="background_section1">
+                <div className="background_section1  animate__animated animate__backInLeft">
                     <div className="background_info">
                         <h1>Fresh & Healthy <br /> Organic Food</h1>
                         <div className="discount">
@@ -17,14 +17,14 @@ const Header = () => {
                             <p>Free shipping on all your order.</p>
                         </div>
                         <div className="shopnow_btn">
-                            <button>
+                            <button className=''>
                                 Shop now &nbsp;&nbsp;
                                 <img src={shop_now} alt="shop now" />
                             </button>
                         </div>
                     </div>
                 </div>
-                <div className="background_section2">
+                <div className="background_section2  animate__animated animate__backInRight">
                     <div className="background1_innerdiv">
                         <p className='sale'>SUMMER SALE</p>
                         <h2>75% OFF</h2>
@@ -38,7 +38,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="infoMainDiv">
+            <div className="infoMainDiv animate__animated animate__pulse">
             <div className="information shadow">
                 <div className="info_heading_first">
                     <div className='info_first infoDiv'>
